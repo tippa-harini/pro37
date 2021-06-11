@@ -30,17 +30,17 @@ class Quiz {
 
   play(){
     //write code here to hide question elements
-    Question.hide()
+    question.hide()
 
     //write code to change the background color here
 
     //write code to show a heading for showing the result of Quiz
     textSize(30);
-    text("Result Of The Quiz",425,100);
+    text("Result Of The Quiz",310,80);
 
     //call getContestantInfo( ) here
 
-    Player.getPlayerInfo();
+    Contestant.getPlayerInfo();
 
     //write condition to check if contestantInfor is not undefined
     if(allContestants !== undefined){
